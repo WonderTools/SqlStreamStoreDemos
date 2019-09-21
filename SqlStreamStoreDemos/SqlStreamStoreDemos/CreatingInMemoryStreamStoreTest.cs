@@ -9,6 +9,7 @@ namespace SqlStreamStoreDemos
         public void Test()
         {
             var streamStore = new InMemoryStreamStore();
+            
         }
     }
 }
