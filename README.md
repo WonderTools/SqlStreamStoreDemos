@@ -4,13 +4,16 @@ In this project, we wish to explore SqlStreamStore. EventStore is a type of data
 ## Event sourcing
 Event sourcing is a pattern where the state of its entities are stores as events. These events are replayed from the begining to get to the current state of its entities.
 
-### What is a stream
+## What is a stream
 Stream is something where events could be store. The order of the events in the stream is preserved. There are consistency checks applied in a stream
 
-### What is a Message
+## What is a Message
 Message (or event)is that is finally stored 
 
-### Creating a StreamStore
+## Learning by Demos
+In this we see how to use SqlStreamStore by a series of demos
+
+### Creating a In Memory Stream Store
 
 ### Creating a stream
 
